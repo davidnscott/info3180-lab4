@@ -1,3 +1,16 @@
 body {
     padding-top: 5rem;
 }
+
+img{
+	height:400px;
+	width:400px;
+}
+
+.pics{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-gap:10px;
+	column-gap: 10px;
+	row-gap: 1em;
+}
